@@ -46,7 +46,7 @@ other required environment variables can be gotten from the env.example file.
 make sure you resolve all dependencies first.
 To start the application based on intellij you can just use the play button on intellij.
 OR You can just compile and start the application from the command line while on the app directory using the following command
-- mvn clean install -Pdev
+- mvn clean install 
 
 and start the application using the following command:
 - java -jar  target/<jar-file-name>.jar 
@@ -59,3 +59,4 @@ note: make sure you set all required environment variables as required by the en
 #### Testing up the application:
 
 - from intellij you can run the test files individually or within each folder.
+
