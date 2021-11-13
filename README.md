@@ -49,7 +49,7 @@ OR You can just compile and start the application from the command line while on
 - mvn clean install 
 
 and start the application using the following command:
-- java -jar  target/<jar-file-name>.jar 
+- java -jar  target/Library-0.0.1-SNAPSHOT.jar 
 
 note: make sure you set all required environment variables as required by the env.example file using the command if on linux
 `export KEY="value"`
